@@ -44,8 +44,27 @@ public class MainDrive {
 //		2. 숫자 입력 받기
 		
 		Scanner myScanner = new Scanner(System.in);
-		System.out.print("정답 입력 (3자리 정수) : ");
-		int inputNum = myScanner.nextInt();
+		
+		// 맞힐 때 까지 반복한다. (입력 받고 -> 확인 -> 틀리면 다시 받기)
+		while(true) {
+			
+			// 1) 숫자 입력 받기
+			System.out.print("정답 입력 (3자리 정수) : ");
+			int inputNum = myScanner.nextInt();
+			
+			// 2) 배열 형태로 나누기
+			
+			
+			// 3) S(스트라이크)와 B(볼) 분별하기
+			
+			
+			// 4) 결과 안내
+			
+		}
+		
+		
+		
+		
 		
 		
 		

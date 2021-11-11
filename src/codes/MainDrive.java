@@ -53,8 +53,11 @@ public class MainDrive {
 			int inputNum = myScanner.nextInt();
 			
 			// 2) 배열 형태로 나누기
-			
-			
+			int[]  userNumbers = new int[3];
+			userNumbers[0] = inputNum / 100; // 100의 자리
+			userNumbers[1] = inputNum / 10 % 10; // 10의 자리
+			userNumbers[2] = inputNum % 10; // 1의 자리 
+						
 			// 3) S(스트라이크)와 B(볼) 분별하기
 			
 			
